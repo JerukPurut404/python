@@ -1,42 +1,42 @@
-import turtle
-turtle.setup
+import turtle as t 
+t.setup
 
 def driehoek():
     
-    turtle.color("pink")
+    t.color("pink")
 
 for x in range(3):
     
-    turtle.color("pink")
-    turtle.forward(100)
-    turtle.left(120)
-    turtle.forward(100)
-    turtle.left(120)
-    turtle.forward(100) 
+    t.color("pink") #Invisible Triangle 
+    t.forward(100)
+    t.left(120)
+    t.forward(100)
+    t.left(120)
+    t.forward(100) 
 
-    turtle.penup()
-    turtle.right(150)
-    turtle.forward(50)
+    t.penup()
+    t.right(150)
+    t.forward(50)
 
-    turtle.color("blue")
-    turtle.pendown()
-    turtle.right(90)
-    turtle.forward(100)
-    turtle.left(120)
-    turtle.left(90)
-    turtle.left(30)
-    turtle.forward(100)
+    t.color("blue") #Upside down Triangle 
+    t.pendown()
+    t.right(90)
+    t.forward(100)
+    t.left(120)
+    t.left(90)
+    t.left(30)
+    t.forward(100)
 
-    turtle.left(120)
-    turtle.left(90)
-    turtle.left(30)
-    turtle.forward(100)
-    turtle.left(90)
-    turtle.left(90)
-    turtle.left(30)
-    turtle.left(30)
-    turtle.forward(100)
+    t.left(120)
+    t.left(90)
+    t.left(30)
+    t.forward(100)
+    t.left(90)
+    t.left(90)
+    t.left(30)
+    t.left(30)
+    t.forward(100)
 
 
-driehoek() 
+driehoek()
 input()
